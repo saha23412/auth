@@ -1,8 +1,12 @@
+/* Подключаем шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
 /* Указываем box sizing */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
 }
 
 /* Убираем внутренние отступы */
@@ -55,7 +59,7 @@ img {
 }
 
 /* Указываем понятную периодичность в потоке данных у article*/
-article>*+* {
+article > * + * {
   margin-top: 1em;
 }
 

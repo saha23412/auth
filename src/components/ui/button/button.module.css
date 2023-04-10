@@ -1,0 +1,15 @@
+.my-button {
+  width: 100%;
+  background-color: #f2b705;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 9px 0;
+  outline: none;
+  border: 0px solid transparent;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}

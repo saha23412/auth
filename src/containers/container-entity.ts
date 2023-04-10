@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
-interface ContainerEntity {
+interface ContainerPropsEntity {
   children: ReactNode | ReactNode[];
 }
 
-export default ContainerEntity;
+export default ContainerPropsEntity;

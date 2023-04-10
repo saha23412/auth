@@ -1,0 +1,8 @@
+.container-background-img {
+  background-image: url('../../assets/fon.png');
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-attachment: fixed;
+}

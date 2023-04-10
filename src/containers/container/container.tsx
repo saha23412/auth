@@ -1,8 +1,8 @@
-import ContainerEntity from "../container-entity";
-import styles from "./container.module.css";
+import ContainerPropsEntity from '../container-entity';
+import styles from './container.module.css';
 
-const Container: React.FC<ContainerEntity> = ({ children }) => {
-  return <div className={styles.container}>Container</div>;
+const Container: React.FC<ContainerPropsEntity> = ({ children }) => {
+  return <div className={styles.container}>{children}</div>;
 };
 
 export default Container;

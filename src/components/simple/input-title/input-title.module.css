@@ -1,0 +1,8 @@
+.title-text {
+  font-size: 14px;
+  line-height: 19px;
+  color: #989898;
+}
+.input-focus:focus {
+  border: 1px solid #10100f;
+}
